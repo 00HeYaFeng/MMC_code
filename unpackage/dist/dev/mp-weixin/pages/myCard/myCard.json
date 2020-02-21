@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "van-switch": "/wxcomponents/vant/dist/switch/index"
+  }
+}

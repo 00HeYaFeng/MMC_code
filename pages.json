@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText":"MMC影名片",
+				"usingComponents":{
+					"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+					"van-tab": "/wxcomponents/vant/dist/tab/index"
+				}
+			}
+		},
+		{
+			"path": "pages/makeI/makeI",
+			"style": {}
+		},
+		{
+			"path": "pages/set/set"
+		}
+        ,{
+            "path" : "pages/make/make",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/video/video",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/myMake/myMake"
+        }
+        ,{
+            "path" : "pages/myCard/myCard",
+            "style" : {
+				"usingComponents":{
+					"van-switch": "/wxcomponents/vant/dist/switch/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/login/login"
+            
+        }
+        ,{
+            "path" : "pages/addProject/addProject"
+        }
+        ,{
+            "path" : "pages/setting/setting"
+            
+        }
+        ,{
+            "path" : "pages/userAgreement/userAgreement",
+            "style" : {
+				"navigationBarTitleText":"用户平台协议"
+			}
+        }
+        ,{
+            "path" : "pages/companyPreview/companyPreview",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "MMC影名片",
+		"navigationBarBackgroundColor": "#090909",
+		"navigationBarTextStyle": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar":{
+		"color":"#000",
+		"selectedColor":"#E54840",
+		"list":[
+			{
+			        "pagePath": "pages/index/index",
+			        "text": "发现",
+			        "iconPath": "static/images/photoS.png",
+			        "selectedIconPath": "static/images/indexPhoto.png"
+			      },
+			      {
+			      "pagePath": "pages/makeI/makeI",
+			      "text": "制作影名片",
+			      "iconPath": "static/images/makePhoto.png",
+			      "selectedIconPath": "static/images/makePhoto.png"
+			      },
+			      {
+			        "pagePath": "pages/set/set",
+			        "text": "我的",
+			        "iconPath": "static/images/setPhoto.png",
+			        "selectedIconPath": "static/images/setS.png"
+			      }
+		]
+	}
+}

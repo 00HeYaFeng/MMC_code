@@ -1,0 +1,143 @@
+
+.loginCall{
+	float: left;
+	width: 75%;
+	margin-left: 10%;
+	height: 100rpx;
+	background-color: rgb(236,236,236);
+	padding: 0 0 0 5%;
+	margin-top: 20%;
+}
+.loginPassword{
+	float: left;
+	width: 75%;
+	margin-left: 10%;
+	height: 100rpx;
+	background-color: rgb(236,236,236);
+	padding: 0 0 0 5%;
+	margin-top: 5%;
+}
+.loginCLick{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+	background-color: rgb(230,99,99);
+	color: #FFFFFF;
+	outline: none;
+}
+.switchregisClick{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	background-color: rgb(111,197,133);
+	color: #FFFFFF;
+	outline: none;
+}
+.otherText{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 15%;
+	color: rgb(169,169,169);
+}
+.otherLogin{
+	float: left;
+	width: 100%;
+	height: 40%;
+	margin-top: 5%;
+}
+.otherWeixin{
+	float: left;
+	width: 200rpx;
+	height: 200rpx;
+	margin-left: 37%;
+}
+.otherWeixinText{
+	float: left;
+	width: 100%;
+	font-size: 35rpx;
+	opacity: 0.6;
+	text-align: center;
+}
+.regisCall{
+	float: left;
+	width: 75%;
+	margin-left: 10%;
+	height: 100rpx;
+	background-color: rgb(236,236,236);
+	padding: 0 0 0 5%;
+	margin-top: 15%;
+}
+.regisVerification{
+	float: left;
+	width: 100%;
+	margin-top: 6%;
+}
+.regisVerificationInput{
+	float: left;
+	height: 100rpx;
+	width: 40%;
+	background-color: rgb(236,236,236);
+	padding: 0 0 0 5%;
+	margin-left: 10%;
+}
+.regisVerificationButton{
+	float: left;
+	width: 32%;
+	height: 100rpx;
+	margin-left: 3%;
+}
+.regisVerificationView{
+	float: left;
+	width: 32%;
+	height: 100rpx;
+	margin-left: 3%;
+	background-color: rgb(236,236,236);
+	border-radius: 5px;
+	text-align: center;
+	font-size: 45rpx;
+}
+.regisPassword{
+	float: left;
+	width: 75%;
+	margin-left: 10%;
+	height: 100rpx;
+	background-color: rgb(236,236,236);
+	padding: 0 0 0 5%;
+	margin-top: 5%;
+}
+.regisClick{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+	background-color: rgb(75,210,110);
+	color: rgb(169,169,169);
+	outline: none;
+}
+.switchText{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	text-align: right;
+	margin-top: 5%;
+	opacity: 0.6;
+}
+.bottonText{
+	float: left;
+	font-size: 25rpx;
+	width: 80%;
+	margin-left: 20%;
+	margin-top: 100rpx;
+}
+.bottonTextES{
+	float: left;
+}
+.userAgree{
+	float: left;
+	width: 40%;
+	color: rgb(250,74,81);
+}
+

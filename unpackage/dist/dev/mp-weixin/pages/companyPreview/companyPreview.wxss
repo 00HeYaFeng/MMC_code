@@ -1,0 +1,66 @@
+
+page{
+	background-color: rgb(2,2,2);
+}
+.preview{
+	float: left;
+	width: 88%;
+	margin-left: 6%;
+}
+.previewHead{
+	float: left;
+	color: #FFFFFF;
+	width: 96%;
+	margin-left: 2%;
+}
+.previewLogo{
+	float: left;
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100rpx;
+}
+.previewHeadName{
+	float: left;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-left: 20rpx;
+	font-size: 35rpx;
+}
+.previewVideo{
+	float: left;
+	width: 96%;
+	height: 356.4rpx;
+	margin-top: 10rpx;
+	border-radius: 10rpx;
+	margin-left: 2%;
+}
+.previewText{
+	float: left;
+	color: #FFFFFF;
+	width: 100%;
+	margin-top: 50rpx;
+}
+.previewName{
+	float: left;
+	width: 100%;
+	margin-top: 40rpx;
+}
+.previewCenton{
+	float: left;
+	opacity: 0.6;
+	border-bottom: 1rpx solid rgb(120,120,120);
+	padding: 0 0 15rpx 0;
+	margin-top: 10rpx;
+	width: 100%;
+}
+.fixedButtonShare{
+	position: fixed;
+	bottom: 0;
+	width: 30%;
+	margin-left: 29%;
+	margin-bottom: 50rpx;
+	background-color: rgb(254,33,100);
+	color: #FFFFFF;
+	border-radius: 15rpx;
+}
+

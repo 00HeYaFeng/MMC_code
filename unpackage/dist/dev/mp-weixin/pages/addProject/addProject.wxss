@@ -1,0 +1,84 @@
+
+page{
+	background-color: rgb(2,2,2);
+}
+.addProjectName{
+	float: left;
+	width: 92%;
+	margin-left: 4%;
+	height: 70rpx;
+	color: #FFFFFF;
+	margin-top: 40rpx;
+	border-bottom: 1px solid rgb(115,115,115);
+}
+.addProjectNameView{
+	float: left;
+	font-size: 35rpx;
+	width: 30%;
+}
+.addProjectNameText{
+	float: left;
+	width: 70%;
+	margin-top: 10rpx;
+	text-align: right;
+	margin-left: -2%;
+	height: 60rpx;
+	color: #FFFFFF;
+}
+.addProjectTime{
+	float: left;
+	width: 92%;
+	margin-left: 4%;
+	color: #FFFFFF;
+	height: 140rpx;
+	margin-top: 40rpx;
+	border-bottom: 1px solid rgb(115,115,115);
+}
+.addProjectTimeView{
+	float: left;
+	font-size: 35rpx;
+	width: 100%;
+}
+.addProjectTimeTextFirst{
+	float: left;
+	width: 40%;
+	margin-top: 30rpx;
+	height: 50rpx;
+}
+.addProjectTimeTextEnd{
+	float: left;
+	width: 40%;
+	margin-top: 30rpx;
+	height: 50rpx;
+}
+.addProjectDescribe{
+	float: left;
+	width: 92%;
+	margin-left: 4%;
+	color: #FFFFFF;
+	height: 600rpx;
+	margin-top: 40rpx;
+}
+.addProjectDescribeView{
+	float: left;
+	font-size: 35rpx;
+	width: 100%;
+}
+.addProjectDescribeText{
+	float: left;
+	width: 100%;
+	height: 520rpx;
+	border: 1px solid rgb(115,115,115);
+	margin-top: 20rpx;
+}
+.fixedButtonSave{
+	position: fixed;
+	bottom: 0;
+	width: 250rpx;
+	margin-left: 250rpx;
+	margin-bottom: 50rpx;
+	background-color: rgb(254,33,100);
+	color: #FFFFFF;
+	border-radius: 15rpx;
+}
+

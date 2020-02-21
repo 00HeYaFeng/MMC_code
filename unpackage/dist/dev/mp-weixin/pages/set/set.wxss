@@ -1,0 +1,45 @@
+
+page{
+	background-color: rgb(2,2,2);
+}
+.setTop{
+	background-color: rgb(68,68,68);
+	float: left;
+	width: 100%;
+	margin-bottom: 20rpx;
+	margin-top: 50rpx;
+}
+.userHeadImage{
+	float: left;
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 140rpx;
+	margin-left: 20rpx;
+	margin-top: 20rpx;
+}
+.userName{
+	float: left;
+	color: #ffffff;
+	height: 140rpx;
+	line-height: 140rpx;
+	font-size: 50rpx;
+	margin-left: 35rpx;
+}
+.myMake{
+    height: 100rpx;
+    font-size: 30rpx;
+    line-height: 100rpx;
+	background-color: rgb(68,68,68);
+	color: #FFFFFF;
+	margin-top: 15rpx;
+	float: left;
+	width: 100%;
+}
+.playImg{
+	float: left;
+	width: 50rpx;
+	height: 50rpx;
+	margin-left: 40rpx;
+	margin-top: 25rpx;
+}
+

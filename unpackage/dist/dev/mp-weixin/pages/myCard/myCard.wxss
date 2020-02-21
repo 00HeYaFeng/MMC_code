@@ -1,0 +1,368 @@
+
+page{
+	background-color: rgb(2,2,2);
+}
+.CardTop{
+	float: left;
+	width: 100%;
+	height: 65rpx;
+	margin-top: 10rpx;
+}
+.CardPerson{
+	float: left;
+	width: 25%;
+	margin-left: 25%;
+	/* background-color: rgb(245,57,92); */
+	color: #ffffff;
+	background-color: rgb(75,75,75);
+	border-top-left-radius: 50rpx;
+	border-bottom-left-radius: 50rpx;
+	height: 65rpx;
+	text-align: center;
+	line-height: 65rpx;
+	font-size: 33rpx;
+}
+.CardCompany{
+	float: left;
+	width: 25%;
+	/* background-color: rgb(245,57,92); */
+	color: #ffffff;
+	background-color: rgb(75,75,75);
+	border-top-right-radius: 50rpx;
+	border-bottom-right-radius: 50rpx;
+	height: 65rpx;
+	text-align: center;
+	line-height: 65rpx;
+	font-size: 33rpx;
+}
+.personMedia{
+	float: left;
+	margin-top: 30rpx;
+	width: 100%;
+	height: 460rpx;
+}
+.personMedia>image{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 10%;
+	top: 5%;
+	z-index: 1;
+}
+.personMediaText{
+	float: left;
+	color: #FFFFFF;
+	width: 90%;
+	height: 40rpx;
+	margin-left: 35rpx;
+	margin-bottom: 10rpx;
+}
+.companyMediaText{
+	float: left;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 40px;
+}
+.companyMediaText+image{
+	width: 40px;
+	height: 40px; 
+	margin-left: 75px;
+}
+.mediaView{
+	float: left;
+	width: 96%;
+	height: 405rpx;
+	margin-top: 10rpx; 
+	background-color: #FFFFFF;
+	margin-left: 2%;
+	border-radius: 15rpx;
+}
+.mediaImage{
+	float: left;
+	width: 100rpx;
+	height: 80rpx;
+	margin-left: 310rpx;
+	margin-top: 115rpx;
+}
+.mediaViewText{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 20rpx;
+}
+.personMediaVideo{
+	float: left;
+	width: 96%;
+	height: 405rpx;
+	margin-top: 10rpx; 
+	border-radius: 15rpx;
+	margin-left: 2%;
+}
+.companyMediaVideo{
+	float: left;
+	width: 96%;
+	height: 405rpx;
+	margin-top: 10rpx; 
+	border-radius: 15rpx;
+	margin-left: 2%;
+	z-index: -1;
+}
+.personData{
+	float: left;
+	width: 100%;
+	margin-top: 35rpx;
+}
+.personDataText{
+	float: left;
+	color: #FFFFFF;
+	margin-left: 35rpx;
+}
+.personDataSave{
+	float: right;
+	margin-right: 40rpx;
+	color: rgb(254,33,100);
+}
+.personDataView{
+	float: left;
+	width: 96%;
+	margin-left: 2%;
+	border-radius: 15rpx;
+	background-color: #ffffff;
+	margin-top: 15rpx;
+}
+.personDataName{
+	float: left;
+	width: 96%;
+	margin-left: 2%;
+	height: 75rpx;
+	border-bottom: 1px solid rgb(237,237,237);
+}
+.personDataNameText{
+	float: left;
+	width: 25%;
+	margin-left: 20rpx;
+	height: 75rpx;
+	line-height: 75rpx;
+}
+.personDataTextarea{
+	float: left;
+	width: 65%;
+	height: 50rpx;
+	margin-top: 15rpx;
+	text-align: right;
+	margin-left: 5%;
+}
+.personDataAddress{
+	float: left;
+	width: 96%;
+	height: 270rpx;
+	margin-left: 2%;
+}
+.personDataExperience{
+	float: left;
+	width: 96%;
+	height: 300rpx;
+	margin-left: 2%;
+}
+.personDataTextareaExperience{
+	float: left;
+	margin-left: 2%;
+	width: 96%;
+	height: 175rpx;
+	background-color: rgb(246,248,248);
+	text-indent: 20rpx;
+	padding: 20rpx 0 0 0;
+}
+.personProject{
+	float: left;
+	width: 100%;
+	margin-top: 35rpx;
+	margin-bottom: 35rpx;
+}
+.personProjectTitle{
+	float: left;
+	color: #FFFFFF;
+	margin-left: 35rpx;
+}
+.personProjectAdd{
+	float: right;
+	color: rgb(254,33,100);
+	margin-right: 40rpx;
+}
+.personProjectView{
+	float: left;
+	background-color: #FFFFFF;
+	width: 96%;
+	margin-left: 2%;
+	border-radius: 15rpx;
+	margin-top: 15rpx;
+}
+.personProjectHead{
+	float: left;
+	width: 96%;
+	margin-left: 2%;
+	height: 120rpx;
+	border-bottom: 1px solid rgb(237,237,237);
+}
+.personProjectHeadView{
+	float: left;
+	width: 100%;
+	height: 50%;
+}
+.personProjectName{
+	float: left;
+	font-size: 35rpx;
+	margin-top: 15rpx;
+}
+.personProjectTime{
+	float: left;
+	margin-top: 22rpx;
+	margin-left: 40rpx;
+	font-size: 25rpx;
+	opacity: 0.6;
+}
+.personProjectWork{
+	float: left;
+	margin-top: 15rpx;
+	font-size: 25rpx;
+	opacity: 0.6;
+}
+.personProjectScore{
+	float: left;
+}
+.personProjectScoreName{
+	float: left;
+}
+.personProjectScoreText{
+	float: left;
+}
+.personProjectUrl{
+	float: left;
+}
+.personProjectUrlName{
+	float: left;
+}
+.personProjectUrlText{
+	float: left;
+}
+.personProjectDescribe{
+	float: left;
+	width: 96%;
+	margin-left: 2%;
+}
+.personProjectDescribeText{
+	float: left;
+	text-indent: 2em;
+	margin-top: 15rpx;
+	margin-bottom: 15rpx;
+}
+.companyMediaVideoView{
+	float: left;
+}
+.ivyLogo{
+	float: left;
+}
+.companyMediaVideoViewText{
+	float: left;
+}
+.companyMediaVideo{
+	float: left;
+}
+.companyMediaView{
+	float: left;
+	width: 92%;
+	height: 200rpx;
+	border-bottom: 1px solid rgb(86,86,86);
+	margin-left: 4%;
+	margin-top: 20rpx;
+}
+.companyMediaViewImageLeft{
+	float: left;
+	width: 60rpx;
+	height: 50rpx;
+	margin-left: 20rpx;
+	margin-top: 75rpx;
+}
+.companyMediaViewText{
+	float: left;
+	color: #FFFFFF;
+	margin-left: 30rpx;
+	margin-top: 75rpx;
+	font-size: 35rpx;
+}
+.companyMediaViewImageRight{
+	float: right;
+	width: 40rpx;
+	height: 50rpx;
+	margin-top: 75rpx;
+}
+.companyNameView{
+	float: left;
+	width: 92%;
+	color: #FFFFFF;
+	margin-top: 50rpx;
+	margin-left: 4%;
+	border-bottom: 1px solid rgb(86,86,86);
+	height: 120rpx;
+}
+.companyNameViewName{
+	float: left;
+	width: 100%;
+	font-size: 35rpx;
+}
+.companyNameViewText{
+	float: left;
+	width: 100%;
+	margin-top: 20rpx;
+}
+.companyDevelopView{
+	float: left;
+	color: #FFFFFF;
+	width: 92%;
+	margin-left: 4%;
+	margin-top: 50rpx;
+	height: 500rpx;
+}
+.companyDevelopViewText{
+	float: left;
+	width: 92%;
+	margin-top: 20rpx;
+	border: 1px solid rgb(86,86,86);
+}
+.companyButtonSave{
+			position: fixed;
+			border-radius: 20rpx;
+			margin-bottom: 20rpx;
+			background-color: rgb(254,33,100);
+			height: 80rpx;
+			color: #FFFFFF;
+			z-index: 999;
+			right: 0;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+}
+.companyButtonPreview{
+	position: fixed;
+	bottom: 0;
+	width: 40%;
+	left: 50%;
+	background-color: rgb(254,33,100);
+	height: 80rpx;
+	color: #FFFFFF;
+	z-index: 999;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+

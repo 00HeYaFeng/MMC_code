@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/makeI/makeI",
+    "pages/set/set",
+    "pages/make/make",
+    "pages/video/video",
+    "pages/myMake/myMake",
+    "pages/myCard/myCard",
+    "pages/login/login",
+    "pages/addProject/addProject",
+    "pages/setting/setting",
+    "pages/userAgreement/userAgreement",
+    "pages/companyPreview/companyPreview"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "MMC影名片",
+    "navigationBarBackgroundColor": "#090909",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#E54840",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "static/images/photoS.png",
+        "selectedIconPath": "static/images/indexPhoto.png"
+      },
+      {
+        "pagePath": "pages/makeI/makeI",
+        "text": "制作影名片",
+        "iconPath": "static/images/makePhoto.png",
+        "selectedIconPath": "static/images/makePhoto.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "我的",
+        "iconPath": "static/images/setPhoto.png",
+        "selectedIconPath": "static/images/setS.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap10.json"
+}

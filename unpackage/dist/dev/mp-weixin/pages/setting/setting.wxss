@@ -1,0 +1,92 @@
+
+page{
+	background-color: rgb(234,234,234);
+}
+.settingHead{
+	float: left;
+	width: 100%;
+	height: 200rpx;
+	margin-top: 50rpx;
+	background-color: #FFFFFF;
+}
+.settingCeshiHead{
+	width: 92%;
+	margin-left: 4%;
+	border-bottom: 1px solid rgb(232,232,232);
+	float: left;
+	margin-top: -1rpx;
+}
+.settingCeshiName{
+	width: 92%;
+	margin-left: 4%;
+	border-bottom: 1px solid rgb(232,232,232);
+	float: left;
+}
+.settingHeadText{
+	float: left;
+	height: 200rpx;
+	line-height: 200rpx;
+	font-size: 40rpx;
+}
+.settingHeadInput{
+	float: left;
+	height: 50rpx;
+	margin-top: 85rpx;
+	text-align: right;
+	margin-left: 27rpx;
+	width: 75%;
+}
+.settingHeadImg{
+	float: left;
+	width: 100rpx;
+	height: 100rpx;
+	margin-left: 65%;
+	margin-top: 50rpx;
+	border-radius: 60rpx;
+}
+.settingName{
+	float: left;
+	width: 100%;
+	height: 150rpx;
+	background-color: #FFFFFF;
+}
+.settingNameText{
+	float: left;
+	height: 150rpx;
+	line-height: 150rpx;
+	font-size: 40rpx;
+}
+.settingNameInput{
+	float: left;
+	height: 50rpx;
+	margin-top: 55rpx;
+	text-align: right;
+	margin-left: 27rpx;
+	width: 75%;
+}
+.loginOut{
+	float: left;
+}
+.computerSet{
+	float: left;
+	margin-left: 30%;
+	width: 40%;
+	margin-top: 40%;
+	background-color: rgb(245,57,92);
+	color: #FFFFFF;
+}
+.backRightHead{
+	width: 27rpx;
+	height: 60rpx;
+	float: right;
+	margin-top: 70rpx;
+	opacity: 0.7;
+}
+.backRightName{
+	width: 27rpx;
+	height: 60rpx;
+	float: right;
+	margin-top: 45rpx;
+	opacity: 0.7;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "MMC影名片",
+  "usingComponents": {
+    "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+    "van-tab": "/wxcomponents/vant/dist/tab/index"
+  }
+}
